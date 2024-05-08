@@ -4,9 +4,9 @@ var randomNumber2 = Math.floor(Math.random() * 6) + 1
 var image1 = "./images/dice" + randomNumber1 + ".png"
 var image2 = "./images/dice" + randomNumber2 + ".png"
 
-var msg1 = "Player 1 wins!"
-var msg2 = "Player 2 wins!"
-var msg3 = "It's a tie!"
+var msg1 = "Player 1 wins! 🚩"
+var msg2 = "🚩Player 2 wins!"
+var msg3 = "Draw! 🤝🏼"
 
 function dice () {
   document.querySelector(".img1").src = image1
