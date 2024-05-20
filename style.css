@@ -3,7 +3,7 @@ h1 {
     font-family: "Kalam", cursive;
     font-weight: bold;
     font-style: normal;
-    color: whitesmoke;
+    color: #FF5F00;
     font-size: 110px;
     margin-bottom: 20px;
     @media (max-width: 844px){
@@ -13,7 +13,7 @@ h1 {
 }
 
 body {
-    background-color: #4793AF;
+    background-color: #6256A5;
 }
 
 .container {
@@ -26,6 +26,7 @@ body {
     @media (max-width: 844px) {
         display: flex;
         flex-direction: column;
+        margin-top: -150px;
         }
     }
 
@@ -42,7 +43,7 @@ footer {
     font-weight: bold;
     font-style: normal;
     font-size: 25px;
-    color: white;
+    color: #FF5F00;
     @media (max-width: 844px) {
         font-size: 17px;
     }
