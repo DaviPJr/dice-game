@@ -6,6 +6,10 @@ h1 {
     color: whitesmoke;
     font-size: 110px;
     margin-bottom: 20px;
+    @media (max-width: 844px){
+        font-size: 55px;
+        padding-bottom: 70px;
+    }
 }
 
 body {
